@@ -10,4 +10,5 @@ global _start
 _start:
   mov eax, 1 ; exit system call
   mov ebx, 13 ; error code
+  sub ebx, 4 ; remove 4 from 13
   int 0x80 ; interrupt
