@@ -8,7 +8,7 @@ global _start
 
 section .data
     addr db "yellow"
-    len $-addr
+    len equ $-addr
 
 section .text
 _start:
