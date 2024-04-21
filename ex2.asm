@@ -14,3 +14,8 @@ _start:
   mov ecx, msg     ; Move the memory address of the message string into ECX
   mov edx, len     ; Move the length of the message into EDX
   int 0x80         ; Perform the system call
+
+  ; Exiting the program
+  mov eax, 1        ; syscall number for sys_exit
+  xor ebx, ebx      ; exit code 0
+  int 0x80          ; invoke syscall
