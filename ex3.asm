@@ -1,3 +1,9 @@
+; nasm -f elf32 ex3.asm -o ex3.o
+; ld -m elf_i386 ex3.o -o ex3
+; ./ex3
+
+
+
 section .data
     buffer resb 256  ; Reserve space for input buffer
     prompt db "You entered: ", 0x0a  ; Prompt message
