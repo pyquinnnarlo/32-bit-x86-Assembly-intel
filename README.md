@@ -24,3 +24,6 @@ ld -m elf_i386 <name.o> -o <name>
 
 
 [OSDev](https://wiki.osdev.org/Main_Page)
+
+
+[CUDA](https://docs.nvidia.com/cuda/cuda-c-programming-guide/)
