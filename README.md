@@ -20,10 +20,3 @@ ld -m elf_i386 <name.o> -o <name>
 ```
 
 
-[Linux syscall table](https://syscalls.mebeim.net/?table=x86/32/ia32/latest)
-
-
-[OSDev](https://wiki.osdev.org/Main_Page)
-
-
-[CUDA](https://docs.nvidia.com/cuda/cuda-c-programming-guide/)
